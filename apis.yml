@@ -1,9 +1,25 @@
 aid: centivax
 name: Centivax
-description: 'Centivax is a company surfaced as a portfolio company of amplify-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: digital-biology. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Centivax is a clinical-stage biotechnology company based in South San Francisco, California,
+  developing broad-spectrum vaccines to prevent infectious diseases at scale. Its lead program is a universal,
+  broadly protective influenza vaccine in Phase 1 clinical development designed to protect against all
+  strains of the virus. The company''s pandemic-prevention work received a Gates Foundation Grand Challenge
+  award and was featured in Netflix''s "Pandemic: How to Prevent an Outbreak." Centivax''s mission is to
+  accelerate the world''s transition to a post-pathogen humanity. This is a life-sciences company profile
+  in the API Evangelist network; Centivax does not currently publish a public developer or API platform.'
 url: https://raw.githubusercontent.com/api-evangelist/centivax/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/5e686fed5db53767ebd1b615/t/5e9a44a10feebf4d48075c13/1587168419310/just+the+c+transparent+background.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Digital Biology
+- Biotechnology
+- Vaccines
+- Immunology
+- Infectious Disease
+- Clinical Trials
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,27 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/centivax-domain-security.yml
 - type: Website
   url: https://centivax.com
+- type: PrivacyPolicy
+  url: https://centivax.com/privacy-policy
+- type: Support
+  url: https://centivax.com/support
+- type: Blog
+  name: In the News
+  url: https://centivax.com/in-the-news
+- type: Careers
+  url: https://centivax.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/centivax
+- type: Twitter
+  url: https://twitter.com/centivax
+- type: YouTube
+  url: https://www.youtube.com/channel/UCnGf47TVun-XD_WK7hBZ6iw
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
