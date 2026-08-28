@@ -8,6 +8,17 @@ description: 'Centivax is a clinical-stage biotechnology company based in South 
   accelerate the world''s transition to a post-pathogen humanity. This is a life-sciences company profile
   in the API Evangelist network; Centivax does not currently publish a public developer or API platform.'
 url: https://raw.githubusercontent.com/api-evangelist/centivax/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
